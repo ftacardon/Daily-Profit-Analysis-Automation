@@ -1,7 +1,7 @@
 function sendDailyProfitChart() {
   const sheetName = 'Summary';
-  const folderId = '1yJWF10Nj0YE9qBEUJL2bRCLZnvGdsIeq'; // Your folder ID
-  const recipientEmail = 'francestacardon@gmail.com';
+  const folderId = 'insert folder ID'; // Your folder ID
+  const recipientEmail = 'insert email';
   
   const spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = spreadsheet.getSheetByName(sheetName);
